@@ -1,0 +1,33 @@
+{
+  "name": "silverblues",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "npm-run-all --parallel app front",
+    "dev-build": "npm-run-all --parallel app front-build",
+    "app": "node ./controller/app.js",
+    "front": "vite",
+    "build": "vite build",
+    "front-build": "vite preview"
+  },
+  "author": "Ian Matheus Veiga",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mysql2": "^3.12.0",
+    "nodemailer": "^6.10.0",
+    "pinia": "^3.0.1",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "npm-run-all": "^4.1.5",
+    "vite": "^6.2.0"
+  }
+}

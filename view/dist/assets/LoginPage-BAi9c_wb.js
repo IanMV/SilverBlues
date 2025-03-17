@@ -1,0 +1,1 @@
+import{i as o,_ as r,a as t,b as i,G as n,L as _}from"./Links-C1DpnSr9.js";import{c as m,d as c,a as e,o as l}from"./index-DjzdcREA.js";const d={__name:"LoginPage",setup(g){const s=o();return s.isRegisterPage=!1,(f,a)=>(l(),m("form",null,[a[0]||(a[0]=c("h1",null,"Login",-1)),e(r),e(t),e(i),e(n),e(_)]))}};export{d as default};

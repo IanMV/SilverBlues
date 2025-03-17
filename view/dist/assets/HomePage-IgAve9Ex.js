@@ -1,0 +1,1 @@
+import{_ as t,c as n,a as r,w as a,r as s,o as c,b as l}from"./index-DjzdcREA.js";const _={};function i(d,e){const o=s("router-link");return c(),n("div",null,[r(o,{to:"/login"},{default:a(()=>e[0]||(e[0]=[l("Login")])),_:1})])}const m=t(_,[["render",i]]);export{m as default};
