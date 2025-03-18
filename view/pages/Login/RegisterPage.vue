@@ -75,18 +75,17 @@ const steps = reactive({
   three: false,
 });
 
-onUnmounted(()=>{
+onUnmounted(() => {
   code.code = "";
-code.codeString = "";
-name.name = undefined;
-password.password = undefined;
-email.email = undefined;
-messageRequire.messageRequire.appear = false;
-messageRequire.messageRequire.message = undefined;
-steps.three = false;
-steps.two = false;
-})
-
+  code.codeString = "";
+  name.name = undefined;
+  password.password = undefined;
+  email.email = undefined;
+  messageRequire.messageRequire.appear = false;
+  messageRequire.messageRequire.message = undefined;
+  steps.three = false;
+  steps.two = false;
+});
 
 const confirm = computed(() => {
   if (steps.one && steps.two && steps.three) return "Confirm";
